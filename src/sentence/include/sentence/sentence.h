@@ -15,15 +15,16 @@
 #include <std_msgs/UInt8.h>
 #include <std_msgs/Float32.h>
 #include <std_msgs/Float64.h>
+#include <std_msgs/String.h>
+#include <iostream>
 #include <sensor_msgs/RelativeHumidity.h>
 #include <vector>
 
-class Number{
+class Sentence{
 private:
-    Number();
-    int value_;
     ros::NodeHandle nh_;
-    ros::Publisher numb_pub_;
+    ros::Publisher sent_pub_;
 public:
     void process();
+    Sentence();
 };

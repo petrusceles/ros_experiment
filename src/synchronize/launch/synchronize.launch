@@ -1,0 +1,5 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="synchronize" name="synchronize_node" type="synchronize_node" output="screen" >
+    </node>
+</launch>
